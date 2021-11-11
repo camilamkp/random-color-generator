@@ -1,0 +1,70 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    width: 60%;
+    margin: auto;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.submit
+{
+    background: #00A02c;
+    color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.submit:hover
+{
+    background: #036820;
+}
+
+.inputText
+{
+    padding: 5px;
+}
+
+div
+{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    border: 1px dotted black;
+}
+
+section
+{
+      /* position: fixed;  
+      top: 5%;
+      right: 0; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+#xButton
+{
+    position: absolute;
+    right: 0;
+    top: 3%;
+    left: 90%;
+}
